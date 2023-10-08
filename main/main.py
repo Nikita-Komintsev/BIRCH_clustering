@@ -49,7 +49,7 @@ if __name__ == "__main__":
     print("Cluster Labels:", cluster_labels)
 
     # Отображение получившихся точек на графике
-    plt.scatter(int_values, cluster_labels, c=cluster_labels, cmap='rainbow')
+    plt.scatter(int_values, int_values, c=cluster_labels, cmap='rainbow')
     plt.xlabel("HEX Values")
     plt.ylabel("Cluster Labels")
     plt.show()
